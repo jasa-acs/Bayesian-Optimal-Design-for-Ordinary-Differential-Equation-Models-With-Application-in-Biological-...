@@ -1,0 +1,13 @@
+useDynLib(aceodes, .registration = TRUE)
+import(lhs)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "runif","rnorm","rbinom","pnorm","dnorm","rlnorm")
+importFrom("triangle", "rtriangle")
+export(CompartmentalNselProb,CompartmentalNselExact,CompartmentalNaelProb,CompartmentalNaelExact,
+CompartmentalSigProb,CompartmentalSigExact,CompartmentalLimits,CompartmentalTerminal,
+CompartmentalEvals,CompartmentalFinal,FitzhughStart,FitzhughNael,FitzhughNsel,FitzhughSig,
+FitzhughLimits,FitzhughTerminal,FitzhughEvals,FitzhughDefaultEvals,FitzhughFinal,FitzhughSolver,
+JakstatStart,JakstatNael, JakstatNsel,JakstatLimits,JakstatTerminal,JakstatEvals,JakstatDefaultEvals,
+JakstatFinal,JakstatSolver,PlacentaStart,PlacentaMod01,PlacentaNael,PlacentaNsel,PlacentaEst01,PlacentaLimits,
+PlacentaTerminal,PlacentaEvals,PlacentaDefaultEvals,PlacentaFinal,PlacentaSolver)

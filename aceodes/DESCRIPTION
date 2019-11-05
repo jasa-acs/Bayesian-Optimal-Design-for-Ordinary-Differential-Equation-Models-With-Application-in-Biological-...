@@ -1,0 +1,16 @@
+Package: aceodes
+Type: Package
+Title: Bayesian Optimal Design for Ordinary Differential Equation
+        Models
+Version: 1.13
+Date: 2019-05-01
+Author: Antony M. Overstall, David C. Woods & Ben M. Parker
+Maintainer: Antony M. Overstall <A.M.Overstall@soton.ac.uk>
+Description: Bayesian optimal design for ordinary differential equation models.
+License: GPL-2
+Depends: R (>= 3.5.0), lhs
+Suggests: acebayes
+Imports: Rcpp (>= 0.12.9), triangle
+LinkingTo: Rcpp, RcppArmadillo (>= 0.9.100.5.0)
+NeedsCompilation: yes
+Packaged: 2019-05-01 08:44:21 UTC; amo105
